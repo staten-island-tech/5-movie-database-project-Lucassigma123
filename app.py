@@ -8,5 +8,21 @@ data = json.load(movies)
 #     print(movies["title"]) 
 x =int(input("write a year and I will tell all movies created after that year"))
 for movies in data:
-    if movies ["year"] > x:  
-        print(movies["title"],(movies["year"]))
+ if (movies["year"]) > x:  
+     print(movies["title"],(movies["year"]))
+
+y=int(input("give me a year i will print all movies after that year"))
+for movies in data:
+   if(movies["year"])>y:
+      print (movies["title"],(movies["year"]))
+
+s=int(input("give me another year i will print all movies before that year"))  
+for movies in data:
+   if(movies["year"])<s:
+      print (movies["title"],(movies["year"]))
+
+f=int(input("give me another year i will print all movies in that year"))  
+for movies in data:
+   if(movies["year"])== f:
+      print (movies["title"],(movies["year"]))
+
