@@ -33,4 +33,4 @@ data = json.load(movies)
 #       print(movies["title"]),print(movies["year"])
 
 p=input("give me a genre")
-if 
+if s
