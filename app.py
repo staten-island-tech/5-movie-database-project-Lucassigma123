@@ -26,8 +26,11 @@ data = json.load(movies)
 #    if(movies["year"])== f:
 #       print (movies["title"],(movies["year"]))
 
-k=input("give me a specific movie and i will print all results")
-for movies in data:
-   m=  movies["title"].lower()
-   if k.lower()==m:
-      print(movies["title"]),print(movies["year"])
+# k=input("give me a specific movie and i will print all results")
+# for movies in data:
+   
+#    if k.lower() in movies["title"].lower():
+#       print(movies["title"]),print(movies["year"])
+
+p=input("give me a genre")
+if 
